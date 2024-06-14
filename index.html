@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="V3_gedreht.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="17.56deg 70.26deg 1825m" field-of-view="30deg" tone-mapping="neutral" shadow-softness="0.5" environment-image="music_hall_01_1k.hdr">
+      <button class="Hotspot" slot="hotspot-1" data-position="4936.063951803124m -3251.0329201156774m 3143.742081878839m" data-normal="0.00003980698644923312m 0.9396780898083875m -0.3420600619035551m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Beer opener</div>
+      </button><button class="Hotspot" slot="hotspot-2" data-position="5054.295762988277m -3200.565343199518m 2789.6773460892027m" data-normal="0.9509338937333849m -0.14965674399932852m 0.2707906732599615m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Foldable handles</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="4865.439784139765m -3279.27294921875m 2915.320557655057m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Grill grate with integrated grease tray</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="4448.13720703125m -3329.028419207655m 2861.0463620840324m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Double-walled housing</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="4607.724979701052m -3175.270081355107m 2896.2644355896946m" data-normal="-0.1772065535124162m 0m 0.9841736825338561m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Rotating pizza stone</div>
+      </button><button class="Hotspot" slot="hotspot-6" data-position="4591.031929029588m -3429.673095703125m 2816.0308090241447m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Grease pan</div>
+      </button><button class="Hotspot" slot="hotspot-7" data-position="4972.590913039922m -3488.2185505310513m 2604.7527829837827m" data-normal="0.6890982747055266m -0.30212234660407056m -0.6586847922036128m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Height-adjustable feet</div>
+      </button><button class="Hotspot" slot="hotspot-8" data-position="4848.699938636807m -3183.751654370417m 2841.884920106456m" data-normal="-0.5632253417832147m 0.8263033428306948m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Rotating ceramic burner</div>
+      </button><button class="Hotspot" slot="hotspot-11" data-position="4794.13720703125m -3341.0140631877957m 2903.7349328549544m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Height adjustment of grill grate and pizza stone</div>
+      </button>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  </body>
+</html>
